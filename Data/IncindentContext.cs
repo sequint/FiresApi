@@ -1,12 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 using FiresApi.Models;
 
-    public class IncindentContext : DbContext
-    {
-        public IncindentContext (DbContextOptions<IncindentContext> options)
-            : base(options)
-        {
-        }
+namespace FiresApi.Data;
 
-        public DbSet<Incident> Incident { get; set; } = default!;
+public class IncindentContext : DbContext
+{
+    public IncindentContext (DbContextOptions<IncindentContext> options)
+        : base(options)
+    {
     }
+
+    public DbSet<Incident> Incident { get; set; } = default!;
+}

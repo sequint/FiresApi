@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using FiresApi.Models;
+using FiresApi.Data;
 
 namespace FiresApi.Controllers
 {
