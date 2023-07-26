@@ -1,6 +1,6 @@
 ﻿namespace FiresApi.Models
 {
-    public class Incident
+    public class IncidentDTO
     {
         public string? Id { get; set; }
         public string? Name { get; set; }
