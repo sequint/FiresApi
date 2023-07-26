@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using TodoApi.Models;
+using FiresApi.Models;
 
-namespace TodoApi.Controllers;
+namespace FiresApi.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

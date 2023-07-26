@@ -1,4 +1,4 @@
-﻿namespace TodoApi.Models;
+﻿namespace FiresApi.Models;
 
 public class TodoItemDTO
 {
