@@ -2,7 +2,7 @@
 
 public class Incident
 {
-	public string? Id { get; set; }
+	public long Id { get; set; }
 	public string? Name { get; set; }
 	public bool Final { get; set; }
 	public string? Updated { get; set; }
