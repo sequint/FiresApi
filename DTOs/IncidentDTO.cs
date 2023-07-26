@@ -1,4 +1,4 @@
-﻿namespace FiresApi.Models;
+﻿namespace FiresApi.DTOs;
 
 public class IncidentDTO
 {
